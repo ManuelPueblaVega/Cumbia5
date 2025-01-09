@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>El Ritmo Perdido de la Caja</title>
+    <title>El Ritmo Perdido del Cencerro</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,8 +125,8 @@
             </svg>
 
             <div class="riddle">
-                Soy de madera y sueno al golpear,
-                mis ritmos alegres te harán bailar.
+                Soy de metal y sueno al chocar,
+                en ritmos latinos me gusta brillar.
                 ¿Quién soy?
             </div>
 
@@ -136,8 +136,8 @@
         </div>
 
         <div class="score-container" id="scoreContainer">
-            <img src="https://raw.githubusercontent.com/ManuelPueblaVega/Cumbia1/main/caja.png" 
-                 alt="Partitura de la Caja" 
+            <img src="https://raw.githubusercontent.com/ManuelPueblaVega/Cumbia5/main/Cencerro.png" 
+                 alt="Partitura del Cencerro" 
                  id="scoreImage"
                  onerror="handleImageError(this)">
             <div id="errorMessage" class="error-message">
@@ -162,7 +162,7 @@
             const scoreImage = document.getElementById('scoreImage');
             const errorMessage = document.getElementById('errorMessage');
             
-            if (answer === 'caja') {
+            if (answer === 'cencerro') {
                 lock.classList.add('unlock-animation');
                 
                 // Reiniciar el estado de la imagen y mensaje de error
